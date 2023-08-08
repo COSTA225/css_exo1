@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #eef1f1;
+    padding: 0 120px;
+}
+.parent
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card-left
+{
+    height: 320px;
+    margin-right: 90px;
+    
+}
+.card-right
+{
+    background-color: rgb(255, 255, 255);
+    height: 320px;
+    width: 400px;
+    margin-left: 5px;
+    padding: 0.7rem;
+    margin-bottom: 10px;
+}
+.card-right-bas
+{
+   
+    padding: 0.7rem;
+    margin-left: 5px;
+
+}
+.card
+{
+    border-radius: 0.4rem;
+}
+input
+{
+    margin-bottom: 0.8rem;
+    height: 48px;
+    width: 100%;
+    border-radius: 0.3rem;
+    margin-bottom: 15px;
+    border: 1px solid #eef1f1;
+}
+::placeholder
+{
+    padding: 0.4rem;
+}
+.mdp
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.nothing
+{
+    border:1px solid #eef1f1 ; 
+    margin-bottom: 15px;
+}
+.connexion
+{
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+}
+span
+{
+    background-color:rgb(66, 183, 42);
+    height: 48px;
+    width: 100%;
+    color: white;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.new-compte
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img
+{
+    margin-top: -80px;
+    margin-bottom: -160px;
+    height: 320px;
+    width: 320px;
+}
+p
+{
+    padding: 2rem;
+    font-size: 24px;
+    width: 81%;
+}
+strong
+{
+    font-size: 18px;
+}
+.page
+{
+    color: black;
+}
+.foot
+{
+    margin-top:-30px;
+    font-size: 17px;
+}
+
